@@ -1,10 +1,13 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import MainNav from './navigation/MainNav.js';
 
-export default class App extends React.Component {
+export default class Other extends React.Component {
   render() {
-    return <MainNav />;
+    return (
+      <View style={styles.container}>
+        <Text>This is the other Screen</Text>
+      </View>
+    );
   }
 }
 
